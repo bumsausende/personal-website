@@ -11,6 +11,113 @@ body {
   padding: 10px 10px;
   font-family: "Roboto";
 }
-h1 {
-  color: firebrick;
+.radio {
+  font-size: 24pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+}
+.image1 { 
+width: 340px;
+height: auto;
+nachbearbeiten
+  
+}
+#background {
+  background-image: url("images/514026.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: initial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  border-top: 1px solid rgb(190, 188, 17);
+  border-bottom: 1px solid rgb(139, 6, 6);
+  margin: 3em;
+  font-size: 24pt;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  color: rgb(2, 20, 20);
+  text-decoration: none;
+  
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  
+li, a {
+    display: block;
+    list-style-type: none;
+  }
+
+  .nav-item {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(197, 4, 4);
+    padding: 1rem;
+  }
+
+  li a:hover {
+    background: rgba(126, 125, 125, 0.349);
+    color: rgb(73, 10, 10);
+    text-decoration: none;
+  }
+}
+@media (min-width: 800px) {
+  .menu {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+	color: #070006;
+  text-decoration: none;
+}
+
+.quotes{
+  display: flex;
+  justify-content: space-between;
+  font-style: oblique;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 28pt;
+  color: rgb(233, 15, 15);
+}
+
+.interests{
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+flex-direction: row;
+color: black;
+font-family: 'Courier New', Courier, monospace;
+font-weight: 600;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+
+  border: rgb(83, 75, 75);
+  border-radius: inherit;
+  border-style: dotted;
+  border-width: 2px;
+  background-color: rgb(15, 15, 219);
+ color: lavender;
+ font-family: 'Courier New', Courier, monospace;
+font-size: 18pt;
+
+
 }
